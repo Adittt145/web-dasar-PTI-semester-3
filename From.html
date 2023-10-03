@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>From Input</h2>
+    <From action="#" method="post" name="from input" enctype="multipart/form-data">
+
+        <label for="nim">NIM</label>
+        <input type="text" name="txtNIM" id="nim" placeholder="Masukan Nim Anda"> <br>
+
+        <label for="nama">Nama</label>
+        <input type="text" name="txtNIM" id="nim" placeholder="Masukan Nim Anda"> <br>
+
+        <label for="nama">jenis kelamin</label>
+        <input type="radio" name="rdjk" id="jk" value="p">pria 
+        <input type="radio" name="rdjk" id="jk" value="w">wanita
+        
+        <label for="jurusan">jurusan</label>
+        <select name="optjurusan" id="jurusan">
+            <option value="">pilih..</option>
+             <option value="D3SI">D3SI</option>
+             <option value="D3RPL">D3RPL</option>
+             <option value="ILKOM">ILKOM</option>
+        </select>
+             
+        
+        <br>
+
+        <label> Hoby :</label>
+        <input type="checkbox" name="chkhoby{}" value="komputer">komputer
+        <input type="checkbox" name="chkhoby{}" value="musik">musik
+        <input type="checkbox" name="chkhoby{}" value="olahraga">olahraga
+        <br>
+
+        <label>Alamat : </label>
+        <textarea name="textalmat" cols="30" rows="10" placeholder="Alamat anda"></textarea>
+        <br>
+
+        <label for="">tanggal lahir</label>
+        <input type="date" name="dttgl_lahir">
+        <br>
+
+        <input type="submit" value="simpan" name="btnsimpan">
+        <input type="reset" value="Reset" name="btnreset">
+        
+
+    </From>
+</body>
+</html>
