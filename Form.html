@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="file.style.css">
 </head>
 <body>
     <h2>Form Registrasi</h2>
@@ -11,9 +12,9 @@
         
     <form action="#" method="post" name="form-input" enctype="multipart/form-data">
 
-       <fieldset> 
+       <fieldset class="bg-merah"> 
         <table>
-        <legend>BIODATA</legend>
+        <legendclass="hijau">BIODATA</legend>
     
         <tr>
             <td><label for="nama">Nama :</label></td>
@@ -90,29 +91,29 @@
                                           </fieldset>
                                 
                                 
-                                <fieldset>
+                                <fieldset class="hijau3">
                                     <table>
-                                    <legend>User Account</legend>
+                                    <legend class="hijau1">User Account</legend>
                                     <tr>
-                                          <td><label for="username"> Username :</label></td>
+                                          <td><label for="username"class="hijau1"> Username :</label></td>
                                           <td><input  type="text" name="txtuser" required id="Username" placeholder=""></td> 
                                         </tr>
                                         
                                 
                                           <tr>
-                                          <td><label for="email"> Email :</label></td>
+                                          <td><label for="email"class="hijau1"> Email :</label></td>
                                           <td><input type="text" name="txtemail" required id="email" placeholder=""></td>
                                         </tr> 
         
 
                                         <tr>
-                                        <td><label for="sandi"> Sandi :</label></td>
+                                        <td><label for="sandi"class="hijau1"> Sandi :</label></td>
                                         <td><input type="password" name="txtsd" required id="sandi" placeholder=""></td> 
                                       </tr>
                                         
                               
                                         <tr>
-                                        <td><label for="konfirmasisandi"> Konfirmasi Sandi :</label></td>
+                                        <td><label for="konfirmasisandi"class="hijau1"> Konfirmasi Sandi :</label></td>
                                         <td><input type="password" name="txtusd" required id="konfirmasisandi" placeholder=""></td> 
                                         </tr>
                                         
@@ -121,9 +122,9 @@
                                       </table>
                                       </fieldset>
                                       <br>
-                                      <fieldset>
+                                      <fieldset class="bg-merah2">
                                           <table>
-                                      <legend>Resolusi Tahun Ini</legend>
+                                      <legendclass="hijau">Resolusi Tahun Ini</legend>
                                       <tr>
                                           <td><td>
                                               <input type="checkbox" name="chkhoby[]" value="HTML" > HTML <br>
@@ -135,7 +136,7 @@
                                     </table>
                                 </fieldset>
                         
-                                <input type="submit" value="Simpan Data" name="bttnsimpan">
+                                <input type="submit" value="Simpan Data" name="bttnsimpan"class>
                              <input type="reset" value="Batal" name="btnbatal">
                              <input type="button" value="Bantuan" name="bantuan"> 
                             

@@ -1,0 +1,26 @@
+.hijau {
+    color: green;
+}
+.hijau1 {
+    color: rgb(240, 238, 238);
+}
+.hijau3 {
+    background-color: rgb(1, 1, 16);
+}
+.bg-merah {
+    background-color: red;
+}
+.bg-merah2 {
+    background-color: brown;
+}
+
+.border {
+    border: 7px solid black;
+}
+
+.besar {
+    font-size: 40px;
+}
+.bg-pink {
+    background-color: pink;
+}
